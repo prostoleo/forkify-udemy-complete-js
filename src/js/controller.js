@@ -44,19 +44,6 @@ import { CLOSE_WINDOW_SEC } from './config.js';
   module.hot.accept();
 } */
 
-// import icons from 'url:../img/icons.svg';
-
-const addRecipeIcon = document.querySelector(
-  '.nav__btn-add-recipe > .nav__icon > use'
-);
-// console.log('searchIcon: ', searchIcon);
-
-function setAttributesImg() {
-  addRecipeIcon.setAttribute('href', `${icons}#icon-edit`);
-}
-
-// setAttributesImg();
-
 ///////////////////////////////////////
 
 //todo показать рецепт
